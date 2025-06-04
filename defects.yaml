@@ -1,0 +1,16 @@
+# pcb_defects.yaml
+path: YOLO_PCB
+
+train: images/train  # relative to `path`
+val:   images/val    # relative to `path`
+test:  images/test   # optional, relative to `path`
+
+nc: 6                # number of classes
+names:
+  0: missing_hole
+  1: open_circuit
+  2: short
+  3: spur
+  4: spurious_copper
+  5: mouse_bite
+
